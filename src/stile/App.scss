@@ -1,0 +1,62 @@
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to left,#42275a, #734b6d)
+
+    
+}
+
+footer{
+    background-color:transparent;
+    color: #e10bfd;
+    padding: 2rem 0; 
+
+    .footer-conteriner {
+        display: flex;
+        flex-direction: row;
+        max-width: 1110px;
+        justify-content: space-around;
+        margin: auto;
+
+
+
+
+    }
+}
+
+
+
+.app-navbar {
+    background-color:#8FB8ED;
+    color: #F1E3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;//topo botton left rigt |_|
+    .navbar-items{
+        display: flex;
+        list-style: none ;
+        align-items: center;
+        gap: 2rem;
+
+        .nav-links{
+            text-decoration: none;
+            color:#bee1e6;
+            &:hover{
+                color:#cddafd;
+                font-size: 20px;
+            }
+        }
+
+    }
+}
+//.navbar-items .app-navbar{//figlio
+
+//}
+
+//.app-navbar.app-navbar{//due classi che fanno parte dello stesso div 
+
+//}
