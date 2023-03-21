@@ -7,10 +7,60 @@
 
     
 }
+.home-container{
+    padding: 40px;
+  
+
+
+
+
+}
+.title {
+    margin-top:0px;
+    margin-bottom:300px ;
+    align-items: center;
+    
+    color:#3c195a;
+  
+  }
+  .title2{
+    margin-top: 0px;
+    margin-bottom:300px ;
+    
+    color:#F1E3F3;
+
+ 
+
+  } 
+  .description {
+    
+    margin-bottom:600px;
+    color: #a467da;
+    
+  }
+  
+  .title3{
+    margin-top: 0px;
+    margin-bottom:300px ;
+    align-items: 40px;
+    align-items: 60px;
+    color:#F1E3F3;
+  
+
+  }
+
+  .history-container{
+    padding: 40px;
+  
+
+  }
+  .his
+
+  
 
 footer{
     background-color:transparent;
-    color: #e10bfd;
+    color: #080808;
     padding: 2rem 0; 
 
     .footer-conteriner {
@@ -29,7 +79,7 @@ footer{
 
 
 .app-navbar {
-    background-color:#8FB8ED;
+    background-color : transparent;
     color: #F1E3F3;
     display: flex;
     flex-direction: row;
